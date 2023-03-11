@@ -4,7 +4,7 @@ import "./App.css";
 import Spinner from "react-spinkit";
 import { useState } from "react";
 import { useEffect } from "react";
-const API_BASE = "https://todobackendjay.herokuapp.com";
+const API_BASE = "https://todobackend-production.up.railway.app";
 function App() {
   const [todos, setTodos] = useState([]);
   const [popupActive, setPopupActive] = useState(false);
